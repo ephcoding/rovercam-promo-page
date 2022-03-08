@@ -36,10 +36,11 @@
 	<!-- #endregion /head -->
 	<body id="page-top">
 		<!-- #region NAV -->
-		<nav
+		<!-- <nav
 			class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm"
 			id="mainNav"
-		>
+		> -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 			<div class="container px-5">
 				<a class="navbar-brand fw-bold" href="#page-top">ROVERCAM</a>
 				<button
@@ -63,16 +64,6 @@
 							<a class="nav-link me-lg-3" href="#download">Download</a>
 						</li>
 					</ul>
-					<button
-						class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
-						data-bs-toggle="modal"
-						data-bs-target="#feedbackModal"
-					>
-						<span class="d-flex align-items-center">
-							<i class="bi-chat-text-fill me-2"></i>
-							<span class="small">Send Feedback</span>
-						</span>
-					</button>
 				</div>
 			</div>
 		</nav>
@@ -83,7 +74,7 @@
 			<div class="container px-5">
 				<div class="row gx-5 align-items-center">
 					<div class="col-lg-6">
-						<!-- Mashead text and app badges-->
+						<!-- Masthead text and app badges-->
 						<div class="mb-5 mb-lg-0 text-center text-lg-start">
 							<h1 class="display-1 lh-1 mb-3">ROVERCAM</h1>
 							<p class="lead fw-normal text-muted mb-5">
@@ -164,7 +155,7 @@
 										<!-- * * This can be a video, image, or just about anything else.-->
 										<!-- * * Set the max width of your media to 100% and the height to-->
 										<!-- * * 100% like the demo example below.-->
-										<video
+										<!-- <video
 											muted="muted"
 											autoplay=""
 											loop=""
@@ -174,7 +165,11 @@
 												src="assets/img/demo-screen.mp4"
 												type="video/mp4"
 											/>
-										</video>
+										</video> -->
+										<img
+											src="assets/img/screenshot.png"
+											style="max-width: 100%; height: 100%"
+										/>
 									</div>
 								</div>
 							</div>
@@ -196,7 +191,7 @@
 									<!-- Feature item-->
 									<div class="text-center">
 										<i
-											class="bi-phone icon-feature text-gradient d-block mb-3"
+											class="bi-emoji-smile-fill icon-feature text-gradient d-block mb-3"
 										></i>
 										<h3 class="font-alt">Latest Photos</h3>
 										<p class="text-muted mb-0">
@@ -209,11 +204,11 @@
 									<!-- Feature item-->
 									<div class="text-center">
 										<i
-											class="bi-camera icon-feature text-gradient d-block mb-3"
+											class="bi-list-ol icon-feature text-gradient d-block mb-3"
 										></i>
 										<h3 class="font-alt">Search By SOL</h3>
 										<p class="text-muted mb-0">
-											Search a rover's photos by SOL (martian day).
+											Search rover photos by SOL (martian day).
 										</p>
 									</div>
 								</div>
@@ -223,7 +218,7 @@
 									<!-- Feature item-->
 									<div class="text-center">
 										<i
-											class="bi-gift icon-feature text-gradient d-block mb-3"
+											class="bi-calendar-week-fill icon-feature text-gradient d-block mb-3"
 										></i>
 										<h3 class="font-alt">Search By Earth Date</h3>
 										<p class="text-muted mb-0">
@@ -236,12 +231,12 @@
 									<!-- Feature item-->
 									<div class="text-center">
 										<i
-											class="bi-patch-check icon-feature text-gradient d-block mb-3"
+											class="bi-camera-fill icon-feature text-gradient d-block mb-3"
 										></i>
 										<h3 class="font-alt">Search By Camera</h3>
 										<p class="text-muted mb-0">
-											Each rover has multiple cameras mounted on board. Choose a
-											camera for an exlusive perspective!
+											Each rover has multiple onboard cameras. Choose a camera
+											for an exlusive perspective!
 										</p>
 									</div>
 								</div>
@@ -249,7 +244,7 @@
 						</div>
 					</div>
 					<div class="col-lg-4 order-lg-0">
-						<!-- Features section device mockup-->
+						<!-- #region PHONE MOCKUP -->
 						<div class="features-device-mockup">
 							<svg
 								class="circle"
@@ -306,7 +301,7 @@
 										<!-- * * This can be a video, image, or just about anything else.-->
 										<!-- * * Set the max width of your media to 100% and the height to-->
 										<!-- * * 100% like the demo example below.-->
-										<video
+										<!-- <video
 											muted="muted"
 											autoplay=""
 											loop=""
@@ -316,11 +311,16 @@
 												src="assets/img/demo-screen.mp4"
 												type="video/mp4"
 											/>
-										</video>
+										</video> -->
+										<img
+											src="assets/img/screenshot.png"
+											style="max-width: 100%; height: 100%"
+										/>
 									</div>
 								</div>
 							</div>
 						</div>
+						<!-- #endregion /PHONE MOCKUP -->
 					</div>
 				</div>
 			</div>
@@ -361,12 +361,9 @@
 		<footer class="bg-black text-center py-5">
 			<div class="container px-5">
 				<div class="text-white-50 small">
-					<div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>
-					<a href="#!">Privacy</a>
-					<span class="mx-1">&middot;</span>
-					<a href="#!">Terms</a>
-					<span class="mx-1">&middot;</span>
-					<a href="#!">FAQ</a>
+					<div class="mb-2">
+						&copy; 2022 ROVERCAM | All Rights Reserved. | MODEVX LLC
+					</div>
 				</div>
 			</div>
 		</footer>
