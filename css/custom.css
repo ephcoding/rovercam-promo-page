@@ -1,9 +1,46 @@
+/* #region MODEVX FONTS */
+@font-face {
+	font-family: roboto;
+	src: url("../assets/fonts/roboto.ttf");
+}
+@font-face {
+	font-family: archivo;
+	src: url("../assets/fonts/archivo-black.ttf");
+}
+/* #endregion /MODEVX FONTS */
 header.masthead {
-	background: var(--bs-body-bg) url("../assets/img/mars-glowing.jpg")
-		center/cover no-repeat;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
+		url("../assets/img/mars-glowing.jpg") center/cover no-repeat;
 }
 
 section.cta {
 	background: var(--bs-body-bg) url("../assets/img/rover-tracks.jpg")
 		center/cover no-repeat;
+}
+i.icon-feature.text-gradient {
+	background: -webkit-linear-gradient(var(--bs-red), var(--bs-orange));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+body {
+	font-family: roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+		Segoe UI Symbol, Noto Color Emoji;
+}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+	font-family: archivo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol", "Noto Color Emoji";
 }
