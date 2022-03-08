@@ -1,0 +1,9 @@
+header.masthead {
+	background: var(--bs-body-bg) url("../assets/img/mars-glowing.jpg")
+		center/cover no-repeat;
+}
+
+section.cta {
+	background: var(--bs-body-bg) url("../assets/img/rover-tracks.jpg")
+		center/cover no-repeat;
+}
